@@ -4,11 +4,11 @@ var Emitter, Recorder, Whammy, blobToUri, saveURL, trigger, wrapper,
   __hasProp = {}.hasOwnProperty,
   __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
 
-Emitter = require('emitter');
+Emitter = require('component-emitter');
 
-trigger = require('trigger-event');
+trigger = require('adamsanderson-trigger-event');
 
-Whammy = require('whammy');
+Whammy = require('Contra-whammy');
 
 saveURL = function(file, uri) {
   var link;

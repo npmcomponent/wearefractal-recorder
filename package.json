@@ -1,32 +1,10 @@
 {
-   "name":"recorder",
-   "description":"Record video tags and media streams",
-   "version":"0.0.1",
-   "homepage":"http://github.com/wearefractal/recorder",
-   "repository":"git://github.com/wearefractal/recorder.git",
-   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-   "main":"./index.js",
-   
-   "dependencies":{
-      "coffee-script":"*"
-   },
-   "devDependencies":{
-      "mocha":"*",
-      "mocha-phantomjs": "*",
-      "should":"*",
-      "component":"*",
-      "uglify-js":"*"
-   },
-   "scripts":{
-      "test":"make test"
-   },
-   "engines":{
-      "node":">= 0.4.0"
-   },
-   "licenses":[
-      {
-         "type":"MIT",
-         "url":"http://github.com/wearefractal/recorder/raw/master/LICENSE"
-      }
-   ]
+  "name": "wearefractal-recorder",
+  "version": "0.0.1",
+  "main": "dist/main.js",
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "adamsanderson-trigger-event": "git://github.com/npmcomponent/adamsanderson-trigger-event.git",
+    "Contra-whammy": "git://github.com/npmcomponent/Contra-whammy.git"
+  }
 }
